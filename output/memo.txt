@@ -1,0 +1,7 @@
+#                                     Memo                                     #
+Task Alignment: Process of aligning tasks and activities within an organization with its overall goals and objectives to maximize efficiency and effectiveness.
+# ---------------------------------------------------------------------------- #
+
+#                                     Memo                                     #
+Contextual relevance refers to the model's ability to generate outputs that align with the expected standards of accuracy and relevance to the context.
+# ---------------------------------------------------------------------------- #
