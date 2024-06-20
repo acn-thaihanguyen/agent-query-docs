@@ -1,6 +1,6 @@
 # PDF and CSV Query Agent
 
-This project uses `LlamaIndex` to create an AI agent capable of querying information from CSV and PDF files and saving notes from the queries. The agent supports two types of interactions: ReActAgent and FunctionCallingAgentWorker.
+This project uses `LlamaIndex` to create an AI agent capable of querying information from CSV and PDF files and saving notes from the queries. The agent supports two types of interactions: `ReActAgent` and `FunctionCallingAgentWorker`.
 
 ## Demo
 
@@ -23,8 +23,8 @@ This project uses `LlamaIndex` to create an AI agent capable of querying informa
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/acn-thaihanguyen/agent-query-docs.git
+cd agent-query-docs
 ```
 
 2. Create a virtual environment and activate it:
@@ -55,7 +55,6 @@ To run the agent, use the following command:
 python main.py --csv <csv_file_path> --pdf <pdf_file_path> --agent <agent_type>
 ```
 
-- 1: ReActAgent or 2: FunctionCallingAgentWorker
 - `--csv`: Path to the CSV file(s) to query (default: `./data/LLMs.csv`).
 - `--pdf`: Path to the PDF file(s) to query (default: `./data/principled_instructions.pdf`).
 - `--agent`: Type of agent to use (1 for ReActAgent, 2 for FunctionCallingAgentWorker).
